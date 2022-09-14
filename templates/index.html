@@ -2,9 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Mano Puslapis</title>
+    <title>Skaiciavimai</title>
 </head>
 <body>
-<h1>Labas, pasauli!</h1>
+<h1>Skaiciavimai</h1>
+{%for x in range(10)%}
+{%if x % 2 ==0%}
+<p>{{x}}</p>>
+{%endif%}
+{%endfor%}
 </body>
 </html>
